@@ -373,7 +373,7 @@ if (winner) {
 <div className="game-board">
   <Board
     squares={current.squares}
-    onClick={() => this.handleClick(i)}
+    onClick={(i) => this.handleClick(i)}
   />
 </div>
 <div className="game-info">
